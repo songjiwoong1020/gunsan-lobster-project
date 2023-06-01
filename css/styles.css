@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500&family=Rubik&display=swap');
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  background-color: rgb(247, 238, 226);
+}
+
+p {
+  /* overflow-wrap: break-word; */
+  hyphens: auto;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.img-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.img-flex img {
+  border-radius: 10px;
+  width: 80vw;
+}
+
+.content-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 80vw;
+}
